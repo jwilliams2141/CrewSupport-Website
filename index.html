@@ -120,12 +120,19 @@ h2 em{font-style:italic;color:var(--gold);}
 /* Override Brevo form styles to match our dark theme */
 .form-right .sib-form{background:transparent !important;text-align:left !important;padding:0 !important;}
 .form-right #sib-container{background:transparent !important;border:none !important;border-radius:0 !important;max-width:100% !important;text-align:left !important;}
-.form-right .input{background:rgba(242,236,226,0.08) !important;border:0.5px solid rgba(242,236,226,0.25) !important;color:#f2ece2 !important;font-family:'Barlow',sans-serif !important;font-size:13px !important;padding:13px 16px !important;border-radius:0 !important;width:100% !important;}
-.form-right .input:focus{border-color:var(--gold-line) !important;outline:none !important;}
-.form-right #sib-container input::placeholder{color:rgba(242,236,226,0.45) !important;}
+.form-right .input{background:#1a1f27 !important;border:1px solid rgba(242,236,226,0.2) !important;color:#f2ece2 !important;font-family:'Barlow',sans-serif !important;font-size:13px !important;padding:13px 16px !important;border-radius:0 !important;width:100% !important;-webkit-appearance:none !important;appearance:none !important;}
+.form-right .input:focus{border-color:var(--gold-line) !important;outline:none !important;background:#1a1f27 !important;}
+.form-right input.input{background:#1a1f27 !important;color:#f2ece2 !important;}
+.form-right select.input{background:#1a1f27 !important;color:#f2ece2 !important;}
+.form-right input.input::placeholder{color:rgba(242,236,226,0.4) !important;}
+.form-right #sib-container input{background:#1a1f27 !important;color:#f2ece2 !important;border:1px solid rgba(242,236,226,0.2) !important;}
+.form-right #sib-container select{background:#1a1f27 !important;color:#f2ece2 !important;border:1px solid rgba(242,236,226,0.2) !important;}
+.form-right #sib-container input::placeholder{color:rgba(242,236,226,0.4) !important;}
 .form-right .sib-sms-input-wrapper{display:flex;gap:8px;}
 .form-right .sib-sms-input-wrapper .entry__field{flex:1;}
 .form-right .sib-sms-tooltip{display:none !important;}
+.form-right .form__entry{background:transparent !important;}
+.form-right .entry__field{background:transparent !important;}
 .form-right .sib-form-block__button{background:var(--gold) !important;color:var(--ink) !important;font-family:'Barlow',sans-serif !important;font-size:11px !important;font-weight:500 !important;letter-spacing:0.16em !important;text-transform:uppercase !important;padding:14px 28px !important;border-radius:0 !important;border:none !important;cursor:pointer !important;width:100% !important;}
 .form-right .sib-form-block__button:hover{background:var(--gold-rich) !important;}
 .form-right .entry__label{color:var(--fog) !important;font-family:'Barlow',sans-serif !important;font-size:11px !important;}
